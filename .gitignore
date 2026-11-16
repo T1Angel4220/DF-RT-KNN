@@ -1,0 +1,153 @@
+# =============================================================================
+# Python Cache & Bytecode
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# =============================================================================
+# Virtual Environments
+# =============================================================================
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv*/
+
+# =============================================================================
+# Secrets, Keys & Credentials
+# =============================================================================
+.env
+.env.*
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+secrets/
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+credentials.json
+secrets.json
+service_account*.json
+*_credentials.json
+client_secret*.json
+
+# =============================================================================
+# Compressed / Archive Files
+# =============================================================================
+*.zip
+*.rar
+*.tar
+*.tar.gz
+*.tar.bz2
+*.7z
+*.gz
+*.xz
+
+# =============================================================================
+# Logs & Temporary Files
+# =============================================================================
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+*~
+.cache/
+tmp/
+temp/
+
+# =============================================================================
+# Operating System Metadata
+# =============================================================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+.directory
+
+# =============================================================================
+# IDEs & Code Editors
+# =============================================================================
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.vim
+Session.vim
+
+# =============================================================================
+# Jupyter Notebooks & Checkpoints
+# =============================================================================
+.ipynb_checkpoints/
+*-checkpoint.ipynb
+
+# =============================================================================
+# Build, Distribution & Packaging
+# =============================================================================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =============================================================================
+# Testing & Coverage
+# =============================================================================
+.tox/
+.nox/
+.coverage
+.coverage.*
+.pytest_cache/
+htmlcov/
+coverage.xml
+*.cover
